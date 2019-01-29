@@ -1,0 +1,1182 @@
+#menutop {
+	top: 59px;
+	margin-bottom: -1px;
+}
+
+.borderless td, .borderless th {
+    border: none !important;
+}
+
+.height {
+	min-height: 200px;
+}
+
+.pdf .icon {
+	font-size: 47px;
+	color: #777;
+}
+
+.table > tbody > tr > .emptyrow {
+	border-top: none;
+}
+
+.table > thead > tr > .emptyrow {
+	border-bottom: none;
+}
+
+.table > tbody > tr > .emptyrow > h4,
+.table > tbody > tr > .emptyrow > h5 {
+	margin-top: 1px !important;
+    margin-bottom: 1px !important;
+}
+
+.table > tbody > tr > .highrow {
+	border-top: 3px solid;
+}
+.middle-weigth{
+    width: 100px;
+}
+
+.input-small{
+    width: 70px;
+}
+
+.element-add{
+    margin-bottom: 10px;
+}
+
+.tr-empty{
+    height: 35px;
+}
+
+.text-row {
+    margin: 5px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.menu-home{
+    max-width: 275px;
+    max-height: 275px;
+}
+
+.menu-side{
+    max-width: 48px;
+    max-height: 48px;
+}
+
+.menu-home{
+    max-width: 275px;
+    max-height: 275px;
+}
+
+.menu-home-sm{
+    max-width: 205px;
+    max-height: 205px;
+}
+
+.menu-side{
+    max-width: 48px;
+    max-height: 48px;
+}
+
+.sidebar-header{
+    background-color: #C9C9C9;
+}
+
+.sidebar-header div.sidebar-toggle{
+    background-color: #0C2355 !important;
+}
+
+header.page-header{
+    background-color: #143E94;
+    padding-right: 50px;
+}
+
+aside.sidebar-left div.nano{
+    background-color: #143E94;
+}
+aside.sidebar-left div.nano .nav{
+	padding-bottom: 50px;
+}
+
+ul.nav-main li a:hover, ul.nav-main li ul.nav-children, ul.nav-main li.nav-expanded a{
+    background-color: #143E94 !important;
+}
+
+ul.nav-main > li > a {
+	text-transform: uppercase;
+}
+
+.text-title-more{
+    text-align: center;
+    background-color: #BDBDBD;
+    padding: 13px 1px;
+    margin: 0px 17%;
+    color: #143E94;
+    font-weight: bold;
+}
+
+.text-center-title{
+    text-align: center;
+    background-color: #BDBDBD;
+    padding: 13px 1px;
+    margin: 0px 25%;
+    color: #143E94;
+    font-weight: bold;
+}
+
+.box-ico:hover h4{
+    background-color: #143E94;
+    color: #ffffff;
+}
+
+.box-ico img{
+    transition: 0.3s ease;
+}
+
+.box-ico:hover img{
+    transform: scale(1.4, 1.4);
+}
+
+.selected-ul-menu-sidebar{
+    font-size: 1.6rem;
+    color: #abb4be;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 27px 75px 10px 10px;
+}
+
+.image-logo-login{
+    width: 150px;
+    height: 150px;
+    text-align: left;
+}
+
+.image-acces-login{
+    float:right;
+    margin-top:-38px;
+}
+
+.form-login{
+    border-top-color: #00225A !important;
+    border-top-style: solid;
+}
+
+.img-profile-preview{
+    width: 215.266px;
+    background-color: #E1E1E1;
+}
+.img-profile-preview img{
+	width: 100%;
+}
+
+.form-agregar-cheque{
+	margin-top: 10px;
+}
+
+#agregar-cheque-btn{
+	margin: -8px 0;
+}
+.retirar-cheque-btn{
+	margin-top: 27px;
+}
+
+#agregar-retencion-btn{
+	margin: -8px 0;
+}
+.retirar-retencion-btn{
+	margin-top: 27px;
+}
+
+.cheque{
+	margin-bottom: 15px;
+}
+
+.retencion{
+	margin-bottom: 15px;
+}
+
+.stock-productos .panel-heading{ overflow: hidden; }
+.stock-productos .panel-heading .form-inline{ float: left; }
+.stock-productos .panel-heading .search{ float: right; }
+.conteo-productos .search-match { background: #ffff00; }
+.conteo-productos .guardado .icon, .orden-produccion .coincide .status, .armado-pedido .coincide .status{
+	font-family: 'FontAwesome';
+	color: #FFF;
+	background: #090;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	text-align: center;
+}
+.conteo-productos .guardado.diferencia .icon, .orden-produccion .coincide.diferencia .status, .armado-pedido .coincide.diferencia .status{ background: none; color: #fa0; }
+.conteo-productos .guardado .icon:before, .orden-produccion .coincide .status:before, .armado-pedido .coincide .status:before{ content: "\f00c"; }
+.conteo-productos .guardado.diferencia .icon:before, .orden-produccion .coincide.diferencia .status:before, .armado-pedido .coincide.diferencia .status:before{ content: "\f071"; }
+.conteo-productos .faltantes .diferencia,
+.conteo-productos .sobrantes .diferencia{ color: #f00; }
+.movcaja,
+.movstock,
+.factura-cobrada,
+.factura-no-cobrada,
+.factura-anulada,
+.estado-orden-produccion{
+	display: inline-block;
+	text-align: right;
+}
+.estado-presupuesto{
+	display: block;
+	text-align: center !important;
+}
+.movcaja.ingreso,
+.movstock.ingreso,
+.factura-cobrada,
+.estado-orden-produccion.entregado,
+.presupuesto-entregado{
+	color: #090;
+}
+.estado-orden-produccion.producido,
+.presupuesto-en-picking{
+	color: #08C;
+}
+.movcaja.egreso,
+.movstock.egreso,
+.factura-no-cobrada,
+.estado-orden-produccion.cancelado,
+.presupuesto-anulado{
+	color: #900;
+}
+.factura-anulada,
+.estado-orden-produccion.en-espera,
+.estado-orden-produccion.en-produccion,
+.presupuesto-en-fabricacion{
+	color: #F90;
+}
+.movcaja.egreso:before,
+.movstock.egreso:before{ content: "-"; }
+
+.importe-anulado{ text-decoration: line-through; }
+
+.modal .loading{
+	background: url(../../img/loader.gif) no-repeat center;
+	min-height: 100px;
+}
+
+.modal .loading .form-group,
+.modal .loading label,
+.modal .loading input,
+.modal .loading textarea,
+.modal .loading select {
+	display: none;
+}
+
+.modal .container{
+	width: inherit;
+}
+
+.armado-pedido input[type=checkbox],
+.orden-produccion input[type=checkbox]{
+	vertical-align: middle;
+}
+.armado-pedido .status{
+	width:16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 1px 0 0;
+}
+.orden-produccion .status{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.seleccionar-cheques .totalseleccionado{
+	height: 32px;
+	width: 152px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.help-videos a{
+	cursor: pointer;
+}
+
+.bugreport .loading label,
+.bugreport .loading input,
+.bugreport .loading textarea{ visibility: hidden; }
+.bugreport .loading{
+	background: url(../../img/loader.gif) no-repeat center;
+	min-height: 100px;
+}
+
+#frm-comprobante .checkbox,
+#cobro-expensas-form .checkbox,
+#form-datos-cobro .checkbox{
+	padding-top: 15px;
+}
+
+#form-armado-pedido .btn{
+	margin: 0 10px !important;
+}
+
+#frm-cliente .panel .panel-body .form-group input[type=file]{
+	color: transparent;
+}
+
+#frm-cliente .panel .panel-body .form-group figure{
+	width: 100%;
+}
+
+#frm-cliente .panel .panel-body .form-group figure img{
+	max-width: 100px;
+	max-height: 150px;
+	display: table;
+	margin: 0 auto;
+}
+
+.abm-form.loading{
+	position: relative;
+}
+
+.abm-form.loading:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, .5);
+	z-index: 100;
+}
+
+.movimiento-ingreso .icono:before{
+	content:"\f090";
+	color: #090;
+}
+
+.movimiento-egreso .icono:before{
+	content:"\f08b";
+	color: #900;
+}
+
+.movimiento-ingreso .valor{
+	color: #090;
+}
+
+.movimiento-egreso .valor{
+	color: #900;
+}
+
+.keyboard-shortcuts{
+	display: none;
+}
+
+.keyboard-shortcuts li{
+	list-style: none;
+	cursor: pointer;
+	float: left;
+	margin-left: 10px;
+}
+
+.nombre-comprobante{
+	font-size: 20px;
+	margin-right: 40px;
+}
+.tipo-factura{
+	display: inline-block;
+	border: 1px solid #666;
+	border-radius: 4px;
+	padding: 20px;
+	font-size: 40px;
+	margin-right: 40px;
+	color: #333;
+	cursor: pointer;
+}
+.tipo-factura:hover{
+	color: #333;
+	background: #EEE;
+}
+.fecha-comprobante{
+	font-size: 20px;
+}
+
+.ui-autocomplete .ui-state-active{
+	font-weight: normal;
+}
+
+.imprimir-comprobante{
+	margin-top: 10px;
+}
+
+.cirre-caja .medio-pago{
+	display: inline-block;
+	width: 49%;
+	font-size: 14px;
+}
+
+.cirre-caja .valor-en-caja{
+	display: inline-block;
+	width: 49%;
+	text-align: right;
+	border-radius: 5px;
+	font-size: 26px;
+	line-height: 1em;
+	margin-bottom: 5px;
+	/* padding: 5px;
+	border: 1px solid #DDD; */
+	vertical-align: middle;
+}
+
+.cirre-caja .detalle .titulo,
+.cirre-caja .detalle .valor{
+	display: inline-block;
+	width: 49%;
+}
+
+.cirre-caja .detalle .observaciones{
+	vertical-align: bottom;
+	margin-top: 18px;
+}
+
+.cirre-caja .detalle .observaciones textarea{
+	width: 90%;
+}
+
+.pretitulos th{
+	text-align: center;
+}
+
+#ingreso-cheques, #ingreso-tarjetas{
+	display: none;
+}
+
+#ingreso-cheques.activo,
+#ingreso-tarjetas.activo{
+	display: block;
+}
+
+#medios-pago legend{
+	font-size: 16px;
+}
+
+.content-body{
+	overflow: auto;
+}
+
+.content-body.facturador{
+	padding-bottom: 100px;
+}
+
+#facturador-resumen{
+	background: #CCC;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	z-index: 2000;
+	text-align: right;
+}
+
+#facturador-resumen .datos{
+	background: transparent;
+}
+
+#facturador-resumen .datos div{
+	background: #FFF;
+	height: 20px;
+	font-size: 16px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#facturador-resumen .datos h3{
+	float: left;
+	margin: 0;
+	padding: 0 20px;
+	font-size: 16px;
+}
+
+#facturador-resumen .datos .ultimo-agregado{ margin-bottom: 10px; }
+#facturador-resumen .datos .titulo-total{ width: 14%; float: left; }
+#facturador-resumen .datos .total{ width: 26%; float: left; }
+#facturador-resumen .datos .titulo-productos{ width: 40%; float: left; }
+#facturador-resumen .datos .productos{ width: 20%; float: left; }
+
+@media (min-width: 768px) {
+	.form-inline .form-group{ margin: 0 5px 10px 0; }
+}
+
+@media (min-width:880px) {
+	#facturador-resumen .datos div{ padding: 5px; }
+	#facturador-resumen .datos .ultimo-agregado{ width: 39%; float: left; margin: 0; }
+	#facturador-resumen .datos .titulo-total{ width: 10%; }
+	#facturador-resumen .datos .total{ width: 14%; }
+	#facturador-resumen .datos .titulo-productos{ width: 23%; }
+	#facturador-resumen .datos .productos{ width: 14%; }
+}
+
+@media (min-width:1050px) {
+	#facturador-resumen .datos h3{ font-size: 20px; padding-top: 5px; }
+	#facturador-resumen .datos div{ font-size: 20px; height: 30px; }
+}
+
+@media print {
+	a[href]:after {
+		content: "";
+	}
+	.header-right,
+	.page-header,
+	.sidebar-left{
+		display: none;
+	}
+	.height{
+		min-height: 1px;
+	}
+	.comprobante h2{
+		margin: 0;
+	}
+	.comprobante .info{
+		float: left;
+		width: 33.33333333%;
+	}
+	.btn{ display: none; }
+	pre{
+		font-family: monospace;
+		float: left;
+		clear: left;
+		border: 0;
+		padding: 0;
+	}
+}
+
+.boton-pago{
+	margin-bottom: 40px;
+}
+
+#contratacion .label{
+	font-size: 14px;
+}
+
+.perfil-inquilino .unidad,
+.perfil-propietario .unidad{
+	border-top: 1px solid #CCC;
+	padding-top: 15px;
+	margin-top: 15px;
+}
+
+.mostrar-password{
+	cursor: pointer;
+}
+
+.compras #select-sucursal-form,
+.proveedores #select-sucursal-form{
+	position: absolute;
+	margin-top: 10px;
+	z-index: 1;
+}
+
+.cotizacion-dolar{
+	color: #696;
+	margin-bottom: 10px;
+	float: right;
+	font-size: 12px;
+	position: relative;
+	z-index: 1;
+}
+.cotizacion-dolar strong { color: #999; }
+.cotizacion-dolar table {
+    border-radius: 5px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px #CDC; /* this draws the table border  */
+	background: #FFF;
+}
+.cotizacion-dolar th {
+	background: #696;
+	color: #FFF;
+	padding: 0px 20px 0 10px;
+	text-align: center;
+	border-radius: 5px 5px 0px 0px;
+	cursor: pointer;
+}
+.cotizacion-dolar td {
+	border: 1px solid #CDC;
+	padding: 0px 10px;
+	text-align: center;
+}
+.cotizacion-dolar th:after{
+	content: "\f106";
+	position: absolute;
+	right: 5px;
+	top: 4px;
+	font: normal normal normal 14px/1 FontAwesome;
+}
+.cotizacion-dolar.collapsed tbody{ display: none; }
+.cotizacion-dolar.collapsed th:after{ content: "\f107"; }
+.panel-heading .cotizacion-dolar{ margin: -12px; }
+
+.modal-body .panel-heading{
+	padding: 5px !important;
+}
+
+.modal-body .panel-group .panel-heading{
+	padding: 18px !important;
+}
+
+.panel-heading h4.text-center {
+	margin-top: 15px !important;
+	margin-bottom: 3px !important;
+}
+
+.cheques .popover.left {
+  margin-left: -75px;
+}
+
+.admtienda .logo,
+.admtienda .banner,
+.admtienda .header-thumb{
+	height: 60px;
+}
+
+.admtienda #borrarbaner-btn{
+	cursor: pointer;
+}
+
+.presupuestos .toolbar,
+.remitos .toolbar{
+	position: absolute;
+	right: 295px;
+	margin-top: 6px;
+	z-index: 1;
+}
+
+#egreso-form .select-unidades-funcionales .chzn-container{
+	min-height: 34px;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+#egreso-form .select-unidades-funcionales .chzn-container .chzn-choices{
+	padding: 5px 0;
+	border: 0;
+	border-radius: 4px;
+}
+
+.crud-form .thumbs-galeria {
+	margin-bottom: 10px;
+}
+
+.modal-detalles > .modal-dialog > .modal-content > .modal-body {
+  padding: 0px 15px !important;
+}
+
+.modal-detalles > .modal-dialog > .modal-content > .modal-body > #detalle-content,
+.modal-detalles > .modal-dialog > .modal-content > .modal-body > #detalle-pago,
+.modal-detalles > .modal-dialog > .modal-content > .modal-body > #detalle-orden {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.modal-detalles > .modal-dialog > .modal-content > .modal-body > #detalle-content > .row > .panel,
+.modal-detalles > .modal-dialog > .modal-content > .modal-body > #detalle-pago > .row > .panel,
+.modal-detalles > .modal-dialog > .modal-content > .modal-body > #detalle-orden > .row > .panel {
+  box-shadow: none !important;
+  margin-bottom: 0 !important;
+}
+
+html.no-overflowscrolling .nano > .nano-content{
+	position: relative !important;
+}
+
+html.no-overflowscrolling.custom-scroll .nano > .nano-content {
+	overflow: hidden !important;
+}
+
+.cierrez .preview{
+	border: 1px solid #AAA;
+	padding: 20px;
+	display: inline-block;
+}
+
+.btn-nuevo-cierrez{
+	position: absolute;
+	margin-top: 6px;
+	z-index: 1;
+}
+
+.btn-reimprimir-cierrez{
+	position: absolute;
+	margin-top: 6px;
+	margin-left: 100px;
+	z-index: 1;
+}
+#alerta-saldo-unidad{
+	padding: 7px;
+	display: inline-block;
+}
+
+.newsletter .vistaprevia .footer{
+	border-top: 1px solid #999;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.newsletter .envio{
+	margin-bottom: 30px;
+}
+
+#detalles-divisa-template{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+.notification-menu > ul{
+	overflow-y: hidden !important;
+}
+
+.tabla-liq{
+	border: 2px solid #000000 !important;
+	color: #000000;
+	width: 1000px;
+}
+
+.tabla-liq td{
+	padding: 4px !important;
+	width: 100pt;
+}
+
+.encabezado1-liq{
+	border-top:2px;
+	text-align:center;
+	border-bottom:none !important;
+	border-right:2px solid #000000 !important;
+}
+
+.encabezado2-liq{
+	border-top:0px !important;
+	text-align:center;
+	border-bottom:2px solid #000000 !important;
+	border-right:2px solid #000000 !important;
+}
+
+.rowvacia-liq{
+	border-left:none #000000 !important;
+}
+
+.titulos-liq{
+	text-align:left;
+	border-bottom:2px solid #000000 !important;
+	border-top:2px solid #000000 !important;
+	border-left:2px solid #000000 !important;
+	border-right:2px solid #000000 !important;
+	font-weight:bold;
+}
+
+.columnavacia-liq{
+	border-bottom:2px solid #000000 !important;
+}
+
+.datos-encabezado-liq{
+	border-right:1px solid #000000 !important;
+	border-bottom:1px solid #000000 !important;
+}
+
+.datos-llenos-encabezado-liq{
+	border-bottom:1px solid #000000 !important;
+	text-align: center;
+}
+
+.rubro-principal-titulo-liq{
+	text-align:center;
+	border:2px solid #000000 !important;
+	background-color: #bdbfc1;
+	font-weight:bold;
+}
+
+.ley-liq{
+	text-align:center;
+	border:2px solid #000000 !important;
+	font-weight:bold;
+}
+
+.gastos-titulo-liq{
+	border:1px solid #000000 !important;
+	font-weight:bold;
+	text-align: center;
+}
+
+.gastos-llenado-liq{
+	border:1px solid #000000 !important;
+}
+
+.montos{
+	text-align:right !important;
+}
+
+.subtotal-sueldos-liq{
+	background-color: #d8d6d6;
+}
+
+.subtotal-coeficientes-row-liq{
+	border:2px solid #000000 !important;
+	background-color: #bdbfc1;
+	font-weight:bold;
+}
+
+.subtotal-coeficientes-liq{
+	text-align:left !important;
+}
+
+.subtotal-final-coeficientes-liq{
+	border-right:2px solid #000000 !important;
+}
+
+.concepto-titulo-estados-liq{
+	text-align: center;
+}
+
+.conceptos-estados-liq{
+	text-align:left !important;
+}
+
+.montos-patrimonio-neto{
+	text-align:right !important;
+	border-left:1px solid #000000 !important;
+	border-right:1px solid #000000 !important;
+}
+
+.form-select-periodo .form-group{
+	display: inline-block;
+}
+
+@media (min-width: 768px) {
+	.cotizacion-dolar{
+		margin-top: -22px;
+	}
+	.keyboard-shortcuts{
+	   display: inline-block;
+	}
+}
+
+.tabla-resumen-indicadores{
+	border: 2px solid #000000 !important;
+	color: #000000;
+	width: 927px;
+	margin: 0px auto;
+	font-size: 14px;
+	border-spacing: 5px;
+    border-collapse: separate;
+	padding:13px;
+}
+
+.tabla-resumen-indicadores td{
+	text-align: center;
+	width: 309px;
+	padding: 2px !important;
+}
+
+.tabla-resumen-indicadores-columnas{
+    border-top: none !important;
+}
+
+.alinear-derecha{
+	text-align: right !important;
+}
+
+.monto-fondo-indicador{
+	background: #adadad;
+}
+
+.monto-fondo-indicador-apagar{
+	background: #d8d8d8;
+}
+
+.monto-total-indicadores{
+	text-align: right !important;
+}
+
+.monto-total-suma-indicadores{
+	text-align: center !important;
+	border: 3px solid #000000 !important;
+}
+
+.tabla-resumen-indicadores-mercaderia{
+	border: 2px solid #000000 !important;
+	color: #000000;
+	width: 927px;
+	margin: 0px auto;
+	font-size: 14px;
+    border-collapse: separate;
+}
+
+.tabla-resumen-indicadores-mercaderia td{
+	text-align: center;
+	width: 309px;
+}
+
+.tabla-resumen-indicadores-fecha{
+	border: none;
+	color: #000000;
+	width: 200px;
+	float: left;
+	font-size: 14px;
+	background: #d8d8d8;
+}
+
+.tabla-resumen-indicadores-fecha td{
+	padding: 5px !important;
+}
+
+.alinear-izquierda{
+	text-align: left !important;
+}
+
+.tabla-resumen-indicadores-materia{
+	border: 2px solid #000000 !important;
+	border: none;
+	color: #000000;
+	width: 200px;
+	float: right;
+	font-size: 14px;
+	background: #adadad;
+}
+
+.tabla-resumen-indicadores-materia td{
+	padding: 5px !important;
+}
+
+.notifications .bugreport-menu{
+	width: 480px;
+}
+
+#modal-enviar-compra .modal-dialog {
+	max-width: 480px;
+}
+
+.fecha_emision{
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555555;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.puertos-entradas-salidas .btn-declara{
+	display: inline;
+	margin-left: 10px;
+}
+
+.datos-buque h1{
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#detalle_condicion_pago{
+	text-align: right;
+	font-size: 18px;
+}
+
+.tabla-estadocuenta-liq{
+	border: 1px solid #000000 !important;
+	color: #000000;
+	width: 1200px;
+	font-size:10.5px;
+}
+
+.tabla-estadocuenta-liq td{
+	padding: 2px !important;
+	width: 100pt;
+}
+
+.izquierda-estadocuenta{
+	text-align:left !important;
+}
+
+.derecha-estadocuenta{
+	display:block;
+	float:right;
+}
+
+.rownonborder-estadocuenta{
+	border-left:none !important;
+	border-right:none !important;
+}
+
+.rownontopborder-estadocuenta{
+	border-top:none !important;
+}
+
+.rownonbottomborder-estadocuenta{
+	border-bottom:none !important;
+}
+
+.titulos-estadocuenta{
+	border-bottom:1px solid #000000 !important;
+	border-top:1px solid #000000 !important;
+	border-left:1px solid #000000 !important;
+	border-right:1px solid #000000 !important;
+}
+
+.titulo-estadocuenta{
+	text-align:center;
+	border-bottom:1px solid #000000 !important;
+	border-top:1px solid #000000 !important;
+	border-left:1px solid #000000 !important;
+	border-right:1px solid #000000 !important;
+	font-weight:bold;
+	font-size:17px;
+}
+
+.titulos-adm-estadocuenta{
+	border-bottom:1px solid #000000 !important;
+	border-top:1px solid #000000 !important;
+}
+
+.tabla-estadocuenta-liq th{
+	text-align:center;
+	border-bottom:1px solid #000000 !important;
+	border-top:1px solid #000000 !important;
+	border-left:1px solid #000000 !important;
+	border-right:1px solid #000000 !important;
+	font-weight:bold;
+}
+
+.tabla-estadocuenta-fill{
+	text-align:center;
+	border-bottom:1px solid #000000 !important;
+	border-top:1px solid #000000 !important;
+	border-left:1px solid #000000 !important;
+	border-right:1px solid #000000 !important;
+}
+
+.tabla-estadocuenta-fill-align{
+	text-align:right;
+	border-bottom:1px solid #000000 !important;
+	border-top:1px solid #000000 !important;
+	border-left:1px solid #000000 !important;
+	border-right:1px solid #000000 !important;
+}
+
+.izquierda-estadocuenta-montos{
+	display:block;
+	float:left;
+}
+
+.btn-cancelar-reporte:hover{
+	color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #d2322d;
+    border-color: #d2322d;
+}
+
+.tabla-formaspago-estadocuenta-liq{
+	border: 1px solid #000000 !important;
+	color: #000000;
+	width: 700px;
+	font-size:12px;
+}
+
+.tabla-formaspago-estadocuenta-liq td{
+	padding: 2px !important;
+	width: 100pt;
+}
+
+.barcazas {
+	padding: 0 0 20px;
+}
+
+.barcazas .barcaza {
+	padding: 10px 0;
+}
+
+.barcazas .barcaza:nth-child(even) {
+	background: #F6F6F6;
+}
+
+.barcazas .barcaza:last-child {
+	margin-bottom: 10px;
+}
+
+.barcazas .barcaza input {
+	margin: 0 -8px;
+    width: calc(100% + 16px);
+}
+
+.exportar-listas-precios #exportar {
+	padding-top: 20px;
+}
+
+#modal-facturas-impagas .subtitulo {
+	float: left;
+	margin: 0;
+	width: calc(100% - 48px);
+	font-size: 17px;
+}
+#modal-facturas-impagas .subtitulo .saltear {
+	font-size: 14px;
+}
+#modal-facturas-impagas .subtitulo .saltear a {
+	cursor: pointer;
+	text-decoration: underline;
+}
+#modal-facturas-impagas .gc-container .table {
+	margin-bottom: 0;
+}
+#detalles-pago .label-importe,
+#detalles-pago .importe {
+	font-size: 16px;
+	margin: 5px 0;
+	text-align: right;
+}
+
+.imputar-pago #egreso-form {
+	float: left;
+	width: calc(100% - 48px);
+}
+@media (min-width: 768px) {
+	.imputar-pago #egreso-form {
+		width: calc(100% - 200px);
+	}
+}
+
+div.dt-buttons {
+  float:none !important;
+}
